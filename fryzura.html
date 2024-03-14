@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>„Usługi fryzjerskie”</title>
+    <link rel="stylesheet" href="styl2.css">
+    <script src="skrypt.js"></script>
+</head>
+<body>
+    <div id="lewy1">
+        <h2><a href="index.html">"SALON FRYZJERSKI"</a></h2>
+        <img src="obraz2.jpg" alt="CZESANIE">
+    </div>
+    <div id="prawy1">
+        <h2>MENU:</h2>
+    </div>
+    <div id="prawy2">
+        <ol>
+            <li><a href="fryzura.html">Strzyzenie</a>
+                <ul>
+                    <li>Krótkie</li>
+                    <li>Średnie</li>
+                    <li>Półdługie</li>
+                    <li>Długie</li>
+                </ul>
+            </li>
+            <li>Czesanie</li>
+            <li>Koloryzacja</li>
+        </ol>
+    </div>
+    <div id="lewy2">
+        <h3>Dziś promocja na strzyżenie włosów</h3>
+        <label>
+            <input type="radio" name="typ" id="Krótkie">Krótkie <br>
+        </label>
+        <label>
+            <input type="radio" name="typ" id="Średnie">Średnie <br>
+        </label>
+        <label>
+            <input type="radio" name="typ" id="Półdługie">Półdługie <br>
+        </label>
+        <label>
+            <input type="radio" name="typ" id="Długie">Długie <br>
+        </label>
+        <button type="button" onclick="ceny()">Odkryj promocję</button>
+        <p id="wynik"></p>
+    </div>
+    <div id="prawy3">
+        <img src="obraz1.jpg" alt="Fryzjer">
+    </div>
+    <div id="stopka">
+        <p>Autor: Janek Snopkowski</p>
+    </div>
+</body>
+</html>
